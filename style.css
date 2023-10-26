@@ -2,4 +2,18 @@
     margin: auto;
     padding: auto;
     box-sizing: border-box;
+    font: Helvetica Sans-serif;
+}
+
+header{
+     max-width: 1000px;
+}
+
+h1{
+    text-align: center;
+    color: fuchsia;
+}
+
+#centrale{
+    text-align: center;
 }
