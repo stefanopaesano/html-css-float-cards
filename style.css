@@ -14,6 +14,43 @@ h1{
     color: fuchsia;
 }
 
+img{
+    width: 100%;
+    display: block;
+}
+
 #centrale{
     text-align: center;
+}
+.conteiner{
+ display: table;
+ margin: auto;
+ padding: auto;
+ display: flex;
+
+}
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+    width: 33.33%;
+}
+.box-black{
+    width: 250px;
+    float: left;
+    
+}
+
+.card_img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.card{
+    background-color: black;
+    margin: 5px;
+}
+h2{
+    color: white;
 }
